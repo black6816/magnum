@@ -40,6 +40,13 @@ See also:
 
 @subsection changelog-latest-new New features
 
+@subsubsection changelog-latest-new-animation Animation library
+
+-   New @ref Animation::ease(), @ref Animation::easeClamped(),
+    @ref Animation::unpack(), @ref Animation::unpackEase() and
+    @ref Animation::unpackEaseClamped() utilities for combining interpolators
+    with easing functions and/or unpackers
+
 @subsubsection changelog-latest-new-math Math library
 
 -   Support for using the @ref Math::Deg, @ref Math::Rad, @ref Math::Half,
